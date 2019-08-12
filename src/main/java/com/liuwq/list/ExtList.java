@@ -1,8 +1,10 @@
-package com.liuwq;
+package com.liuwq.list;
 
 public interface ExtList<E> {
 
     int size();
+
+    boolean isEmpty();
 
     boolean add(E e);
 

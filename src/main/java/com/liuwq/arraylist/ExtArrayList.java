@@ -1,4 +1,6 @@
-package com.liuwq;
+package com.liuwq.arraylist;
+
+import com.liuwq.list.ExtList;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -70,6 +72,11 @@ public class ExtArrayList<E> implements ExtList<E> {
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return size == 0;
     }
 
     @Override

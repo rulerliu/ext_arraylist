@@ -1,4 +1,6 @@
-package com.liuwq;
+package com.liuwq.arraylist;
+
+import com.liuwq.list.ExtList;
 
 /**
  * @description:
@@ -9,6 +11,7 @@ package com.liuwq;
 public class Test {
 
     public static void main(String[] args) {
+//        new ArrayList<>();
         ExtList<Integer> list = new ExtArrayList<>();
         for (int i = 0; i < 10; i++) {
             list.add(i);
