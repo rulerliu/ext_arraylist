@@ -2,6 +2,9 @@ package com.liuwq.arraylist;
 
 import com.liuwq.list.ExtList;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @description:
  * @author: liuwq
@@ -11,7 +14,11 @@ import com.liuwq.list.ExtList;
 public class Test {
 
     public static void main(String[] args) {
-//        new ArrayList<>();
+        List l = new ArrayList();
+        l.add(null);
+        l.add(null);
+        System.out.println(l.size());
+
         ExtList<Integer> list = new ExtArrayList<>();
         for (int i = 0; i < 10; i++) {
             list.add(i);
